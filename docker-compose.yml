@@ -20,7 +20,7 @@ services:
     image: mysql:8.0  # Uses the official MySQL image
     container_name: mysql_container
     ports:
-      - "3306:3306"  # Maps port 3306 on the host to port 3306 in the container
+      - "3307:3306"  # Maps port 3306 on the host to port 3306 in the container
     environment:
       MYSQL_ROOT_PASSWORD: root  # Root password for MySQL
       MYSQL_DATABASE: mydb  # Initial database to create
